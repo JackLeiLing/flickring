@@ -1,0 +1,49 @@
+.example-form {
+    min-width: 150px;
+
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+  }
+  .card {
+    width:100%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .title{
+      flex-grow: 1;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
+
+    @media only screen and (min-width: 375px) {
+        .card {
+            width: calc(50% - 22px);
+        }
+    }
+
+    @media only screen and (min-width: 426px) {
+        .card {
+            width: calc(33.33% - 22px);
+        }
+    }
