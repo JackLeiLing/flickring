@@ -1,2 +1,2 @@
-<app-search-bar></app-search-bar>
-<!-- <app-photos></app-photos> -->
+<app-search-bar (termChanged)="onTermChange($event)"></app-search-bar>
+<app-photos [photos]="photos"></app-photos>

@@ -13,7 +13,6 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 
 import { AppComponent } from './app.component';
 import { PhotosComponent } from './photos/photos.component';
-import { PhotoComponent } from './photo/photo.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { FormsModule } from '@angular/forms';
 
@@ -21,7 +20,6 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     PhotosComponent,
-    PhotoComponent,
     SearchBarComponent,
   ],
   imports: [

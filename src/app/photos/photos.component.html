@@ -1,9 +1,10 @@
-
-<p *ngFor='let photo of photos'>
-
-  
-  <img src="{{photo.media.m}}" alt="">
-</p>
+<main class="cards">
+  <article class="card" *ngFor="let photo of photos">
+    <img src={{photo.media.m}} alt="Sample photo">
+    <div class="text">
+      <h3 class="card-title">{{photo.title}}</h3>
+      <a href={{photo.link}} color="primary"><mat-icon color="primary">more_horiz</mat-icon></a>
+    </div>
+  </article>
+</main>
  
- 
-
